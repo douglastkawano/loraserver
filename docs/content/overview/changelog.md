@@ -8,6 +8,14 @@ menu:
 
 ## Changelog
 
+### 0.23.1
+
+**Bugfixes:**
+
+* Fix increase of NbTrans (re-transmissions) in case of early packetloss.
+* Fix decreasing NbTrans (this only happened in case of data-rate or TX
+  power change).
+
 ### 0.23.0
 
 **Features:**
